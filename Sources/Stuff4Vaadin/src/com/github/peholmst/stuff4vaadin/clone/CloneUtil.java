@@ -25,6 +25,7 @@ import java.util.Map;
  * This is a utility class for object cloning.
  * 
  * @author Petter Holmström
+ * @since 1.0
  */
 public final class CloneUtil {
 

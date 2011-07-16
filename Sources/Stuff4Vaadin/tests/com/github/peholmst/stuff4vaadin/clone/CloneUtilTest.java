@@ -31,6 +31,7 @@ import org.junit.Test;
  * Test case for {@link CloneUtil}.
  * 
  * @author Petter Holmström
+ * @since 1.0
  */
 public class CloneUtilTest {
 

@@ -29,6 +29,7 @@ import java.util.Map;
  * {@link CloneUtil#deepClone(Cloneable)}.
  * 
  * @author Petter Holmström
+ * @since 1.0
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.FIELD)
