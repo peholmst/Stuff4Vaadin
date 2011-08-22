@@ -5,7 +5,7 @@
 	<property file="version.properties"/>	
 	
 	<property name="addon.src.dir" value="${basedir}/Sources/Stuff4Vaadin/src"/>
-<!--	<property name="addon.lib.dir" value="${basedir}/Sources/Stuff4Vaadin/lib"/> -->
+	<property name="addon.lib.dir" value="${basedir}/Sources/Stuff4Vaadin/lib"/>
 	<property name="addon.build.dir" value="${build.dir}/addon_classes"/>
 	<property name="addon.jar" value="${build.dir}/${ant.project.name}-${stuff4vaadin.version}.jar"/>
 	
@@ -18,7 +18,7 @@
 	<property name="demo.war" value="${build.dir}/${ant.project.name}Demo-${i18n4vaadin.version}.war"/>
 -->	
 	<path id="addon.build.path">
-<!--		<fileset dir="${addon.lib.dir}" includes="*.jar"/>-->
+		<fileset dir="${addon.lib.dir}" includes="*.jar"/>
 	</path>
 
 <!--	<path id="demo.build.path">
